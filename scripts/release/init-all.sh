@@ -128,9 +128,9 @@ done
 if ${HARDWARE}; then
   echo "Initializing with hardware msdk"
   init_hardware
-  init_auth
+  #init_auth
 else
   echo "Initializing..."
   init_software
-  init_auth
+  #init_auth
 fi
