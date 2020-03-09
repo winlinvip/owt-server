@@ -10,14 +10,14 @@
     }
   ],
   "levels": {
-    "ClusterWorker": "INFO",
-    "LoadCollector": "INFO",
-    "AmqpClient": "INFO",
-    "WorkingNode": "INFO",
-    "NodeManager": "INFO",
-    "AudioNode": "INFO",
-    "WorkingAgent": "INFO",
-    "Connections": "INFO",
-    "InternalConnectionFactory": "INFO"
+    "ClusterWorker": "DEBUG",
+    "LoadCollector": "DEBUG",
+    "AmqpClient": "DEBUG",
+    "WorkingNode": "DEBUG",
+    "NodeManager": "DEBUG",
+    "AudioNode": "DEBUG",
+    "WorkingAgent": "DEBUG",
+    "Connections": "DEBUG",
+    "InternalConnectionFactory": "DEBUG"
   }
 }

@@ -10,15 +10,15 @@
     }
   ],
   "levels": {
-    "ClusterWorker": "INFO",
-    "LoadCollector": "INFO",
-    "AmqpClient": "INFO",
-    "WorkingJS": "INFO",
-    "NodeManager": "INFO",
-    "LayoutProcessor": "INFO",
-    "VideoNode": "INFO",
-    "WorkingAgent": "INFO",
-    "Connections": "INFO",
-    "InternalConnectionFactory": "INFO"
+    "ClusterWorker": "DEBUG",
+    "LoadCollector": "DEBUG",
+    "AmqpClient": "DEBUG",
+    "WorkingJS": "DEBUG",
+    "NodeManager": "DEBUG",
+    "LayoutProcessor": "DEBUG",
+    "VideoNode": "DEBUG",
+    "WorkingAgent": "DEBUG",
+    "Connections": "DEBUG",
+    "InternalConnectionFactory": "DEBUG"
   }
 }
