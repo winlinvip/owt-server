@@ -122,7 +122,7 @@ module.exports = function (spec, spawnOptions, onNodeAbnormallyQuit, onTaskAdded
                     dropNode(id);
                 }
                 child.alive_count = 0;
-              }, 3000);
+              }, 3000000);
               spawn_failed = false;
           } else if (message === 'IMOK') {
             child.alive_count += 1;
