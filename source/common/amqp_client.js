@@ -7,7 +7,7 @@ var fs = require('fs');
 var amqp = require('amqp');
 var log = require('./logger').logger.getLogger('AmqpClient');
 var cipher = require('./cipher');
-var TIMEOUT = 2000;
+var TIMEOUT = 2000000;
 var REMOVAL_TIMEOUT = 7 * 24 * 3600 * 1000;
 
 var declareExchange = function(conn, name, type, autoDelete, on_ok, on_failure) {

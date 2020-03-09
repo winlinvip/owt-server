@@ -51,14 +51,14 @@ minport = 0 #default: 0
 #The network inferface all peer-connections will be established through. All network interfaces in the system will be adopted if this item is not specified or specified with an empty array.
 ##Valid value is an array of objects that has two properties: name and replaced_ip_address. name is the name of network interface that will be used, replaced_ip_address is the IP address used for replacing the internal IP address in locally generated SDP's and ICE candidates during establishing the peer-connection(useful when behind NATs). replaced_ip_address is optional, if it is not specified, IP address from corresponding network interface will not be replaced.
 #Example of valid value: [{name = "eth1"}, {name = "eth2", replaced_ip_address = "192.0.2.2"}].
-network_interfaces = []  # default: []
+network_interfaces = [{name="eth0",replaced_ip_address="$DOCKER_HOST"}]  # default: []
 
 keystorePath = "./cert/certificate.pfx"
 #note, this won't work with all versions of libnice. With 0 all the available ports are used
 
 # The webrtc port range
-maxport = 0 #default: 0
-minport = 0 #default: 0
+maxport = 60050 #default: 0
+minport = 60000 #default: 0
 
 #STUN server IP address and port to be used by the server.
 #if "" is used, the address is discovered locally
